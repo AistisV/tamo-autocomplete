@@ -1,6 +1,6 @@
 # TAMO Autocomplete (Auto Login)
 
-A simple Chrome Extension to automatically log into the TAMO dienynas portal. Uses `chrome.storage.local` to store credentials locally
+A simple Chrome Extension to automatically log into the TAMO dienynas portal (bypasses multi-stage login process for improved productivity). Uses `chrome.storage.local` to store credentials locally.
 
 Usage:
 1. Download or clone this repository.
