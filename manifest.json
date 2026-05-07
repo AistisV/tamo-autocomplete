@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "TAMO Auto Login",
+  "version": "1.3",
+  "description": "Auto-logs into TAMO dienynas securely.",
+  "permissions": ["scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon.svg"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://dienynas.tamo.lt/Prisijungimas/Login*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "128": "icons/icon.svg"
+  }
+}
